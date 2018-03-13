@@ -10,13 +10,13 @@
          <ClosedNode>/Top - Behavioral D:|Desktop|Nicolas|ECE|ING 4|VHDL|Project|Tower_Defense-Invasion|Top.vhd/ennemy3 - alien - Behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Top - Behavioral (C:/Users/FONTEILLE/Desktop/ISE/Project2.1/Top.vhd)</SelectedItem>
+         <SelectedItem>ennemy1 - troll - Behavioral (C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d1000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d10000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Top - Behavioral (C:/Users/FONTEILLE/Desktop/ISE/Project2.1/Top.vhd)</CurrentItem>
+      <CurrentItem>ennemy1 - troll - Behavioral (C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -65,13 +65,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Configure Target Device</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010d0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Configure Target Device</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
       <ClosedNodes>
