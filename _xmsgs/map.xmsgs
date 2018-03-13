@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_219</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_21_f5_7</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_3146</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_32_f5_6</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2442</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_32_f5_7</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_303</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_33_f5_0</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_321</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_26_f5_6</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_193</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_18_f5_6</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2721</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_26_f5_9</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0000_201</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0000_16_f5_0</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_2622</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_25_f5_8</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_296</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_27_f5_3</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">ennemy2/Mrom__rom00003241</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">ennemy2/Mrom__rom0000324_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_2440</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_21_f5_16</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_2259</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_22_f5_41</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_2258</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_23_f5_40</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_233</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_24_f5_20</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_2417</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_25_f5_13</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_2537</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_27_f5_23</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_16</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_28_f5_16</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_171</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_28_f5_17</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">endstate/Mmux__varindex0001_2911</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">endstate/Mmux__varindex0001_32_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_24140</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_20_f5_72</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2526</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_20_f5_68</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2125</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_21_f5_12</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_21112</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_21_f5_50</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2332</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_21_f5_65</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2469</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_22_f5_28</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2493</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_22_f5_38</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_3217</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_31_f5_11</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2190</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_23_f5_34</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2748</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_23_f5_45</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2510</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_23_f5_71</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/newPosY_turret&lt;6&gt;591</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_23_f5_73</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2686</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_23_f5_85</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2151</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_24_f5_26</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2682</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_24_f5_36</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2867</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_16_f5_47</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_136</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_24_f5_49</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_3250</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_24_f5_84</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2562</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_25_f5_43</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2453</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_25_f5_27</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_3173</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_25_f5_57</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2548</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_26_f5_51</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2373</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_26_f5_46</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2147</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_19_f5_20</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2383</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_19_f5_40</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2059</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_19_f5_26</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2473</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_19_f5_51</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_314</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_27_f5_52</arg>.  <arg fmt="%z" index="3">There is a conflict for the GYMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2847</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_27_f5_28</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_3163</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_28_f5_30</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_2836</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_28_f5_19</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">player/Mmux__mux0327_1919</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">player/Mmux__mux0327_29_f5_32</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">player/init_missile_cmp_eq0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">player/actif_not0001</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">player/rotary_event_or0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+</messages>
+

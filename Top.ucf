@@ -1,0 +1,27 @@
+NET "clk50" LOC = C9;
+NET "red" LOC = H14;
+NET "green" LOC = H15;
+NET "blue" LOC = G15;
+NET "reset" LOC = D18;
+NET "vsync" LOC = F14;
+NET "hsync" LOC = F15;
+NET "shoot" LOC = V16;
+NET "rotation_left" LOC = G18;
+NET "rotation_right" LOC = K18;
+
+NET "green" IOSTANDARD = LVCMOS33;
+NET "blue" IOSTANDARD = LVCMOS33;
+NET "clk50" IOSTANDARD = LVCMOS33;
+NET "red" IOSTANDARD = LVCMOS33;
+NET "hsync" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVCMOS33;
+NET "vsync" IOSTANDARD = LVCMOS33;
+NET "shoot" IOSTANDARD = LVCMOS33;
+NET "rotation_left" IOSTANDARD = LVCMOS33;
+NET "rotation_right" IOSTANDARD = LVCMOS33;
+
+NET "clk50" PULLDOWN;
+NET "reset" PULLDOWN;
+NET "shoot" PULLDOWN;
+NET "rotation_left" PULLUP;
+NET "rotation_right" PULLUP;

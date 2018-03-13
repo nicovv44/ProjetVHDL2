@@ -1,0 +1,1062 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/move_missile.vhd" in Library work.
+Architecture behavioral of Entity move_missile is up to date.
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/move_ennemy.vhd" in Library work.
+Architecture behavioral of Entity move_ennemy is up to date.
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/missile.vhd" in Library work.
+Architecture behavioral of Entity missile is up to date.
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" in Library work.
+Architecture behavioral of Entity turret is up to date.
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" in Library work.
+Architecture behavioral of Entity troll is up to date.
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" in Library work.
+Architecture behavioral of Entity spider is up to date.
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" in Library work.
+Architecture behavioral of Entity alien is up to date.
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/collision.vhd" in Library work.
+Architecture behavioral of Entity collision is up to date.
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/end_game.vhd" in Library work.
+Architecture behavioral of Entity end_game is up to date.
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/controlVGA.vhd" in Library work.
+Architecture rtl of Entity controlvga is up to date.
+Compiling vhdl file "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/Top.vhd" in Library work.
+Architecture behavioral of Entity top is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <turret> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <troll> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <spider> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <alien> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <collision> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <end_game> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <controlVGA> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <missile> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <move_ennemy> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <move_missile> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Top> in library <work> (Architecture <behavioral>).
+WARNING:Xst:754 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/Top.vhd" line 312: Unconnected inout port 'blank' of component 'controlVGA'.
+Entity <Top> analyzed. Unit <Top> generated.
+
+Analyzing Entity <turret> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 292: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 292: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 292: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 292: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 292: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 292: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 292: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 292: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 298: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 298: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 298: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 298: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 298: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 298: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 298: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 298: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 304: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 304: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 304: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 304: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 304: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 304: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 304: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd" line 304: Index value(s) does not match array range, simulation mismatch.
+Entity <turret> analyzed. Unit <turret> generated.
+
+Analyzing Entity <missile> in library <work> (Architecture <behavioral>).
+Entity <missile> analyzed. Unit <missile> generated.
+
+Analyzing Entity <move_missile> in library <work> (Architecture <behavioral>).
+Entity <move_missile> analyzed. Unit <move_missile> generated.
+
+Analyzing Entity <troll> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 222: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 222: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 222: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 222: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 222: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 222: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 222: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 222: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 228: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 228: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 228: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 228: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 228: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 228: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 228: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 228: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 234: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 234: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 234: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 234: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 234: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 234: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 234: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd" line 234: Index value(s) does not match array range, simulation mismatch.
+Entity <troll> analyzed. Unit <troll> generated.
+
+Analyzing Entity <move_ennemy> in library <work> (Architecture <behavioral>).
+Entity <move_ennemy> analyzed. Unit <move_ennemy> generated.
+
+Analyzing Entity <spider> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 233: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 233: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 233: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 233: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 233: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 233: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 233: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 233: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 239: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 239: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 239: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 239: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 239: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 239: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 239: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 239: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 245: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 245: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 245: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 245: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 245: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 245: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 245: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd" line 245: Index value(s) does not match array range, simulation mismatch.
+Entity <spider> analyzed. Unit <spider> generated.
+
+Analyzing Entity <alien> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 232: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 232: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 232: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 232: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 232: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 232: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 232: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 232: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 238: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 238: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 238: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 238: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 238: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 238: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 238: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 238: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 244: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 244: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 244: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 244: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 244: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 244: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 244: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd" line 244: Index value(s) does not match array range, simulation mismatch.
+Entity <alien> analyzed. Unit <alien> generated.
+
+Analyzing Entity <collision> in library <work> (Architecture <behavioral>).
+Entity <collision> analyzed. Unit <collision> generated.
+
+Analyzing Entity <end_game> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/end_game.vhd" line 249: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/end_game.vhd" line 249: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/end_game.vhd" line 249: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/end_game.vhd" line 249: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <romsig$varindex0001> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Entity <end_game> analyzed. Unit <end_game> generated.
+
+Analyzing Entity <controlVGA> in library <work> (Architecture <rtl>).
+Entity <controlVGA> analyzed. Unit <controlVGA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <collision>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/collision.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 10-bit adder for signal <ennemy1Hit$addsub0000> created at line 78.
+    Found 10-bit adder for signal <ennemy1Hit$addsub0001> created at line 78.
+    Found 10-bit comparator greater for signal <ennemy1Hit$cmp_gt0000> created at line 78.
+    Found 10-bit comparator greater for signal <ennemy1Hit$cmp_gt0001> created at line 78.
+    Found 10-bit comparator less for signal <ennemy1Hit$cmp_lt0000> created at line 78.
+    Found 10-bit comparator less for signal <ennemy1Hit$cmp_lt0001> created at line 78.
+    Found 10-bit adder for signal <ennemy2Hit$addsub0000> created at line 82.
+    Found 10-bit adder for signal <ennemy2Hit$addsub0001> created at line 82.
+    Found 10-bit comparator greater for signal <ennemy2Hit$cmp_gt0000> created at line 82.
+    Found 10-bit comparator greater for signal <ennemy2Hit$cmp_gt0001> created at line 82.
+    Found 10-bit comparator less for signal <ennemy2Hit$cmp_lt0000> created at line 82.
+    Found 10-bit comparator less for signal <ennemy2Hit$cmp_lt0001> created at line 82.
+    Found 10-bit adder for signal <ennemy3Hit$add0000> created at line 86.
+    Found 10-bit adder for signal <ennemy3Hit$addsub0000> created at line 86.
+    Found 10-bit adder for signal <ennemy3Hit$addsub0001> created at line 86.
+    Found 10-bit comparator greater for signal <ennemy3Hit$cmp_gt0000> created at line 86.
+    Found 10-bit comparator greater for signal <ennemy3Hit$cmp_gt0001> created at line 86.
+    Found 10-bit comparator less for signal <ennemy3Hit$cmp_lt0000> created at line 86.
+    Found 10-bit comparator less for signal <ennemy3Hit$cmp_lt0001> created at line 86.
+    Found 10-bit comparator greater for signal <turretHit$cmp_gt0000> created at line 72.
+    Found 10-bit comparator greater for signal <turretHit$cmp_gt0001> created at line 72.
+    Found 10-bit comparator greater for signal <turretHit$cmp_gt0002> created at line 72.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred  15 Comparator(s).
+Unit <collision> synthesized.
+
+
+Synthesizing Unit <end_game>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/end_game.vhd".
+WARNING:Xst:1781 - Signal <winImg> is used but never assigned. Tied to default value.
+WARNING:Xst:646 - Signal <posYCurrent> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1781 - Signal <looseImg> is used but never assigned. Tied to default value.
+    Found 93x400-bit ROM for signal <romsig$varindex0000> created at line 249.
+    Found 76x222-bit ROM for signal <romsig$varindex0001> created at line 249.
+    Found 1-bit 222-to-1 multiplexer for signal <$varindex0000> created at line 249.
+    Found 1-bit 400-to-1 multiplexer for signal <$varindex0001> created at line 249.
+    Found 11-bit subtractor for signal <newPosX>.
+    Found 11-bit subtractor for signal <newPosY>.
+    Found 11-bit comparator greatequal for signal <sigvalid$cmp_ge0000> created at line 246.
+    Found 11-bit comparator greatequal for signal <sigvalid$cmp_ge0001> created at line 246.
+    Found 11-bit comparator less for signal <sigvalid$cmp_lt0000> created at line 246.
+    Found 11-bit comparator less for signal <sigvalid$cmp_lt0001> created at line 246.
+    Found 11-bit comparator less for signal <sigvalid$cmp_lt0002> created at line 246.
+    Found 11-bit comparator less for signal <sigvalid$cmp_lt0003> created at line 246.
+    Summary:
+	inferred   2 ROM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   6 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <end_game> synthesized.
+
+
+Synthesizing Unit <controlVGA>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/controlVGA.vhd".
+    Found 1-bit register for signal <beamValid>.
+    Found 10-bit register for signal <beamX>.
+    Found 10-bit register for signal <beamY>.
+    Found 1-bit register for signal <bOut>.
+    Found 1-bit register for signal <gOut>.
+    Found 1-bit register for signal <rOut>.
+    Found 10-bit subtractor for signal <beamX$sub0000> created at line 113.
+    Found 10-bit subtractor for signal <beamY$sub0000> created at line 114.
+    Found 1-bit register for signal <ckdiv2>.
+    Found 10-bit register for signal <cpth>.
+    Found 10-bit adder for signal <cpthmux$addsub0000> created at line 79.
+    Found 10-bit comparator greatequal for signal <cpthsup138$cmp_ge0000> created at line 86.
+    Found 10-bit comparator greatequal for signal <cpthsup778$cmp_ge0000> created at line 87.
+    Found 10-bit comparator greatequal for signal <cpthsup794$cmp_ge0000> created at line 88.
+    Found 10-bit comparator greatequal for signal <cpthsup95$cmp_ge0000> created at line 85.
+    Found 10-bit up counter for signal <cptv>.
+    Found 10-bit comparator greatequal for signal <cptvsup2$cmp_ge0000> created at line 100.
+    Found 10-bit comparator greatequal for signal <cptvsup36$cmp_ge0000> created at line 101.
+    Found 10-bit comparator greatequal for signal <cptvsup516$cmp_ge0000> created at line 102.
+    Found 10-bit comparator greatequal for signal <cptvsup525$cmp_ge0000> created at line 103.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  35 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+Unit <controlVGA> synthesized.
+
+
+Synthesizing Unit <move_missile>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/move_missile.vhd".
+    Found 10-bit comparator greater for signal <posXOut_missile$cmp_gt0000> created at line 49.
+    Found 10-bit comparator less for signal <posXOut_missile$cmp_lt0000> created at line 49.
+    Found 10-bit addsub for signal <posXOut_missile$share0000>.
+    Found 10-bit subtractor for signal <posYOut_missile$addsub0000> created at line 54.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <move_missile> synthesized.
+
+
+Synthesizing Unit <move_ennemy>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/move_ennemy.vhd".
+    Found 10-bit adder for signal <posXOut_ennemy$addsub0000> created at line 48.
+    Found 10-bit adder for signal <posYOut_ennemy$addsub0000> created at line 51.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <move_ennemy> synthesized.
+
+
+Synthesizing Unit <troll>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/troll.vhd".
+    Using one-hot encoding for signal <$mux0064>.
+    Found 64x576-bit ROM for signal <slice0000$rom0000>.
+    Found 9-bit 64-to-1 multiplexer for signal <$mux0064> created at line 222.
+    Found 1-bit register for signal <destruction>.
+    Found 1-bit register for signal <direction>.
+    Found 32-bit adder for signal <mux1_ennemy$addsub0000> created at line 157.
+    Found 11-bit subtractor for signal <newPosX_ennemy>.
+    Found 11-bit subtractor for signal <newPosY_ennemy>.
+    Found 32-bit register for signal <reg1_ennemy>.
+    Found 11-bit comparator greatequal for signal <sigValid_ennemy$cmp_ge0000> created at line 216.
+    Found 11-bit comparator greatequal for signal <sigValid_ennemy$cmp_ge0001> created at line 216.
+    Found 11-bit comparator less for signal <sigValid_ennemy$cmp_lt0000> created at line 216.
+    Found 11-bit comparator less for signal <sigValid_ennemy$cmp_lt0001> created at line 216.
+    Found 10-bit register for signal <sposXCurrent_ennemy>.
+    Found 10-bit register for signal <sposYCurrent_ennemy>.
+    Found 10-bit adder for signal <sspeedY_ennemy$add0000> created at line 202.
+    Found 10-bit subtractor for signal <sspeedY_ennemy$sub0000> created at line 202.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  54 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+	inferred   9 Multiplexer(s).
+Unit <troll> synthesized.
+
+
+Synthesizing Unit <spider>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/spider.vhd".
+    Using one-hot encoding for signal <$mux0055>.
+    Found 64x495-bit ROM for signal <$rom0000>.
+    Found 9-bit 59-to-1 multiplexer for signal <$mux0055> created at line 233.
+    Found 1-bit register for signal <destruction>.
+    Found 1-bit register for signal <direction>.
+    Found 32-bit adder for signal <mux1_ennemy$addsub0000> created at line 169.
+    Found 11-bit subtractor for signal <newPosX_ennemy>.
+    Found 11-bit subtractor for signal <newPosY_ennemy>.
+    Found 32-bit register for signal <reg1_ennemy>.
+    Found 11-bit comparator greatequal for signal <sigValid_ennemy$cmp_ge0000> created at line 227.
+    Found 11-bit comparator greatequal for signal <sigValid_ennemy$cmp_ge0001> created at line 227.
+    Found 11-bit comparator less for signal <sigValid_ennemy$cmp_lt0000> created at line 227.
+    Found 11-bit comparator less for signal <sigValid_ennemy$cmp_lt0001> created at line 227.
+    Found 10-bit register for signal <sposXCurrent_ennemy>.
+    Found 10-bit register for signal <sposYCurrent_ennemy>.
+    Found 10-bit adder for signal <sspeedY_ennemy$add0000> created at line 213.
+    Found 10-bit subtractor for signal <sspeedY_ennemy$sub0000> created at line 213.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  54 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+	inferred   9 Multiplexer(s).
+Unit <spider> synthesized.
+
+
+Synthesizing Unit <alien>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/alien.vhd".
+    Using one-hot encoding for signal <$mux0056>.
+    Found 64x504-bit ROM for signal <$rom0000>.
+    Found 9-bit 57-to-1 multiplexer for signal <$mux0056> created at line 232.
+    Found 1-bit register for signal <destruction>.
+    Found 1-bit register for signal <direction>.
+    Found 32-bit adder for signal <mux1_ennemy$addsub0000> created at line 169.
+    Found 11-bit subtractor for signal <newPosX_ennemy>.
+    Found 11-bit subtractor for signal <newPosY_ennemy>.
+    Found 32-bit register for signal <reg1_ennemy>.
+    Found 11-bit comparator greatequal for signal <sigValid_ennemy$cmp_ge0000> created at line 226.
+    Found 11-bit comparator greatequal for signal <sigValid_ennemy$cmp_ge0001> created at line 226.
+    Found 11-bit comparator less for signal <sigValid_ennemy$cmp_lt0000> created at line 226.
+    Found 11-bit comparator less for signal <sigValid_ennemy$cmp_lt0001> created at line 226.
+    Found 10-bit register for signal <sposXCurrent_ennemy>.
+    Found 10-bit register for signal <sposYCurrent_ennemy>.
+    Found 10-bit adder for signal <sspeedY_ennemy$add0000> created at line 212.
+    Found 10-bit subtractor for signal <sspeedY_ennemy$sub0000> created at line 212.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  54 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+	inferred   9 Multiplexer(s).
+Unit <alien> synthesized.
+
+
+Synthesizing Unit <missile>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/missile.vhd".
+WARNING:Xst:737 - Found 4-bit latch for signal <sspeedY_missile>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Using one-hot encoding for signal <$mux0006>.
+    Found 16x32-bit ROM for signal <slice0000$rom0000>.
+    Found 8-bit 16-to-1 multiplexer for signal <$mux0006> created at line 175.
+    Found 32-bit adder for signal <mux1_missile$addsub0000> created at line 116.
+    Found 11-bit subtractor for signal <newPosX_missile>.
+    Found 11-bit subtractor for signal <newPosY_missile>.
+    Found 32-bit register for signal <reg1_missile>.
+    Found 11-bit comparator greatequal for signal <sigValid_missile$cmp_ge0000> created at line 171.
+    Found 11-bit comparator greatequal for signal <sigValid_missile$cmp_ge0001> created at line 171.
+    Found 11-bit comparator less for signal <sigValid_missile$cmp_lt0000> created at line 171.
+    Found 11-bit comparator less for signal <sigValid_missile$cmp_lt0001> created at line 171.
+    Found 10-bit register for signal <sposXCurrent_missile>.
+    Found 10-bit register for signal <sposYCurrent_missile>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  52 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <missile> synthesized.
+
+
+Synthesizing Unit <turret>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/turret.vhd".
+WARNING:Xst:653 - Signal <sposYInit_missile> is used but never assigned. This sourceless signal will be automatically connected to value 0110010000.
+WARNING:Xst:653 - Signal <sposXInit_missile> is used but never assigned. This sourceless signal will be automatically connected to value 0100111000.
+WARNING:Xst:737 - Found 1-bit latch for signal <rotary_event>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <init_missile>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <actif>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 10-bit latch for signal <sposXIn_missile>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 10-bit latch for signal <sposYIn_missile>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Using one-hot encoding for signal <$mux0327>.
+    Found 128x2943-bit ROM for signal <slice0000$rom0000>.
+    Found 9-bit 331-to-1 multiplexer for signal <$mux0327> created at line 292.
+    Found 1-bit register for signal <destruction>.
+    Found 32-bit adder for signal <mux1_turret$addsub0000> created at line 235.
+    Found 11-bit subtractor for signal <newPosX_turret>.
+    Found 11-bit subtractor for signal <newPosY_turret>.
+    Found 32-bit register for signal <reg1_turret>.
+    Found 1-bit register for signal <sennemydown>.
+    Found 11-bit comparator greatequal for signal <sigValid_turret$cmp_ge0000> created at line 288.
+    Found 11-bit comparator greatequal for signal <sigValid_turret$cmp_ge0001> created at line 288.
+    Found 11-bit comparator less for signal <sigValid_turret$cmp_lt0000> created at line 288.
+    Found 11-bit comparator less for signal <sigValid_turret$cmp_lt0001> created at line 288.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  34 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+	inferred   9 Multiplexer(s).
+Unit <turret> synthesized.
+
+
+Synthesizing Unit <Top>.
+    Related source file is "C:/Users/FONTEILLE/Desktop/ISE/Project2.1/Top.vhd".
+WARNING:Xst:1780 - Signal <sval_ennemy_3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <sposYIn_turret> is used but never assigned. This sourceless signal will be automatically connected to value 0110000001.
+WARNING:Xst:653 - Signal <sposYIn_ennemy_3> is used but never assigned. This sourceless signal will be automatically connected to value 0000000010.
+WARNING:Xst:653 - Signal <sposYIn_ennemy_2> is used but never assigned. This sourceless signal will be automatically connected to value 0000000010.
+WARNING:Xst:653 - Signal <sposYIn_ennemy_1> is used but never assigned. This sourceless signal will be automatically connected to value 0000000010.
+WARNING:Xst:653 - Signal <sposXIn_turret> is used but never assigned. This sourceless signal will be automatically connected to value 0010011010.
+WARNING:Xst:653 - Signal <sposXIn_ennemy_3> is used but never assigned. This sourceless signal will be automatically connected to value 1001100010.
+WARNING:Xst:653 - Signal <sposXIn_ennemy_2> is used but never assigned. This sourceless signal will be automatically connected to value 0100100111.
+WARNING:Xst:653 - Signal <sposXIn_ennemy_1> is used but never assigned. This sourceless signal will be automatically connected to value 0000000001.
+    Found 1-bit register for signal <sennemy1down>.
+    Found 1-bit register for signal <sennemy2down>.
+    Found 1-bit register for signal <sennemy3down>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <Top> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 7
+ 128x2943-bit ROM                                      : 1
+ 16x32-bit ROM                                         : 1
+ 64x495-bit ROM                                        : 1
+ 64x504-bit ROM                                        : 1
+ 64x576-bit ROM                                        : 1
+ 76x222-bit ROM                                        : 1
+ 93x400-bit ROM                                        : 1
+# Adders/Subtractors                                   : 41
+ 10-bit adder                                          : 17
+ 10-bit addsub                                         : 1
+ 10-bit subtractor                                     : 6
+ 11-bit subtractor                                     : 12
+ 32-bit adder                                          : 5
+# Counters                                             : 1
+ 10-bit up counter                                     : 1
+# Registers                                            : 85
+ 1-bit register                                        : 75
+ 10-bit register                                       : 5
+ 32-bit register                                       : 5
+# Latches                                              : 6
+ 1-bit latch                                           : 3
+ 10-bit latch                                          : 2
+ 4-bit latch                                           : 1
+# Comparators                                          : 51
+ 10-bit comparator greatequal                          : 8
+ 10-bit comparator greater                             : 10
+ 10-bit comparator less                                : 7
+ 11-bit comparator greatequal                          : 12
+ 11-bit comparator less                                : 14
+# Multiplexers                                         : 7
+ 1-bit 222-to-1 multiplexer                            : 1
+ 1-bit 400-to-1 multiplexer                            : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+ 9-bit 331-to-1 multiplexer                            : 1
+ 9-bit 57-to-1 multiplexer                             : 1
+ 9-bit 59-to-1 multiplexer                             : 1
+ 9-bit 64-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 7
+ 128x2943-bit ROM                                      : 1
+ 16x32-bit ROM                                         : 1
+ 64x495-bit ROM                                        : 1
+ 64x504-bit ROM                                        : 1
+ 64x576-bit ROM                                        : 1
+ 76x222-bit ROM                                        : 1
+ 93x400-bit ROM                                        : 1
+# Adders/Subtractors                                   : 41
+ 10-bit adder                                          : 17
+ 10-bit addsub                                         : 1
+ 10-bit subtractor                                     : 6
+ 11-bit subtractor                                     : 12
+ 32-bit adder                                          : 5
+# Counters                                             : 1
+ 10-bit up counter                                     : 1
+# Registers                                            : 285
+ Flip-Flops                                            : 285
+# Latches                                              : 6
+ 1-bit latch                                           : 3
+ 10-bit latch                                          : 2
+ 4-bit latch                                           : 1
+# Comparators                                          : 51
+ 10-bit comparator greatequal                          : 8
+ 10-bit comparator greater                             : 10
+ 10-bit comparator less                                : 7
+ 11-bit comparator greatequal                          : 12
+ 11-bit comparator less                                : 14
+# Multiplexers                                         : 7
+ 1-bit 222-to-1 multiplexer                            : 1
+ 1-bit 400-to-1 multiplexer                            : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+ 9-bit 331-to-1 multiplexer                            : 1
+ 9-bit 57-to-1 multiplexer                             : 1
+ 9-bit 59-to-1 multiplexer                             : 1
+ 9-bit 64-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <sspeedY_missile_1> in Unit <missile> is equivalent to the following 2 FFs/Latches, which will be removed : <sspeedY_missile_2> <sspeedY_missile_3> 
+WARNING:Xst:1710 - FF/Latch <sspeedY_missile_1> (without init value) has a constant value of 0 in block <missile>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Top> ...
+
+Optimizing unit <collision> ...
+
+Optimizing unit <end_game> ...
+
+Optimizing unit <controlVGA> ...
+
+Optimizing unit <move_missile> ...
+
+Optimizing unit <troll> ...
+
+Optimizing unit <spider> ...
+
+Optimizing unit <alien> ...
+
+Optimizing unit <missile> ...
+
+Optimizing unit <turret> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 108.
+Optimizing block <Top> to meet ratio 100 (+ 5) of 4656 slices :
+Area constraint is met for block <Top>, final ratio is 99.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 295
+ Flip-Flops                                            : 295
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Top.ngr
+Top Level Output File Name         : Top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 12357
+#      GND                         : 1
+#      INV                         : 101
+#      LUT1                        : 256
+#      LUT2                        : 696
+#      LUT2_D                      : 59
+#      LUT2_L                      : 20
+#      LUT3                        : 1558
+#      LUT3_D                      : 104
+#      LUT3_L                      : 84
+#      LUT4                        : 4881
+#      LUT4_D                      : 276
+#      LUT4_L                      : 272
+#      MUXCY                       : 642
+#      MUXF5                       : 2111
+#      MUXF6                       : 629
+#      MUXF7                       : 142
+#      MUXF8                       : 37
+#      VCC                         : 1
+#      XORCY                       : 487
+# FlipFlops/Latches                : 319
+#      FD                          : 19
+#      FDC                         : 171
+#      FDCE                        : 30
+#      FDCPE                       : 60
+#      FDR                         : 2
+#      FDRS                        : 3
+#      FDS                         : 7
+#      FDSE                        : 3
+#      LDCP                        : 20
+#      LDCP_1                      : 1
+#      LDP                         : 2
+#      LDP_1                       : 1
+# Clock Buffers                    : 3
+#      BUFG                        : 2
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 4
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     4467  out of   4656    95%  
+ Number of Slice Flip Flops:            319  out of   9312     3%  
+ Number of 4 input LUTs:               8307  out of   9312    89%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    232     4%  
+ Number of GCLKs:                         3  out of     24    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------------------------+------------------------------------------------+-------+
+Clock Signal                                                       | Clock buffer(FF name)                          | Load  |
+-------------------------------------------------------------------+------------------------------------------------+-------+
+display/ckdiv21                                                    | BUFG                                           | 20    |
+clk50                                                              | BUFGP                                          | 275   |
+player/actif                                                       | NONE(player/missile_function/sspeedY_missile_0)| 1     |
+player/sposXIn_missile_or00001(player/sposXIn_missile_or00001_f5:O)| BUFG(*)(player/sposXIn_missile_9)              | 20    |
+player/rotary_event_or0000(player/rotary_event_or00001:O)          | NONE(*)(player/rotary_event)                   | 1     |
+player/init_missile_cmp_eq0000(player/init_missile_cmp_eq0000:O)   | NONE(*)(player/init_missile)                   | 1     |
+player/actif_not0001(player/actif_not00011:O)                      | NONE(*)(player/actif)                          | 1     |
+-------------------------------------------------------------------+------------------------------------------------+-------+
+(*) These 4 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------------------------------------------------+------------------------------------------------+-------+
+Control Signal                                                                  | Buffer(FF name)                                | Load  |
+--------------------------------------------------------------------------------+------------------------------------------------+-------+
+reset                                                                           | IBUF                                           | 214   |
+N0(XST_GND:G)                                                                   | NONE(ennemy1/sposXCurrent_ennemy_1)            | 47    |
+ennemy1/sposXCurrent_ennemy_1_or0000(ennemy1/sposXCurrent_ennemy_1_or00001:O)   | NONE(ennemy1/sposXCurrent_ennemy_1)            | 18    |
+ennemy3/sposXCurrent_ennemy_0_or0000(ennemy3/sposXCurrent_ennemy_0_or00001:O)   | NONE(ennemy3/sposXCurrent_ennemy_0)            | 15    |
+ennemy2/sposXCurrent_ennemy_3_or0000(ennemy2/sposXCurrent_ennemy_3_or00001:O)   | NONE(ennemy2/sposXCurrent_ennemy_3)            | 14    |
+ennemy2/sposXCurrent_ennemy_3_and0001(ennemy2/sposXCurrent_ennemy_3_and000149:O)| NONE(ennemy2/sposXCurrent_ennemy_0)            | 6     |
+ennemy3/sposXCurrent_ennemy_0_and0001(ennemy3/sposXCurrent_ennemy_0_and000149:O)| NONE(ennemy3/sposXCurrent_ennemy_1)            | 5     |
+ennemy1/sposXCurrent_ennemy_1_and0001(ennemy1/sposXCurrent_ennemy_1_and000149:O)| NONE(ennemy1/sposXCurrent_ennemy_0)            | 2     |
+player/actif(player/actif:Q)                                                    | NONE(player/init_missile)                      | 1     |
+player/init_missile(player/init_missile:Q)                                      | NONE(player/missile_function/sspeedY_missile_0)| 1     |
+player/rotary_event_or0001(player/rotary_event_or00011:O)                       | NONE(player/rotary_event)                      | 1     |
+player/sennemydown(player/sennemydown:Q)                                        | NONE(player/actif)                             | 1     |
+player/sposXIn_missile_0__and0000(player/sposXIn_missile_0__and00001:O)         | NONE(player/sposXIn_missile_0)                 | 1     |
+player/sposXIn_missile_0__or0000(player/sposXIn_missile_0__or00001:O)           | NONE(player/sposXIn_missile_0)                 | 1     |
+player/sposXIn_missile_1__and0000(player/sposXIn_missile_1__and00001:O)         | NONE(player/sposXIn_missile_1)                 | 1     |
+player/sposXIn_missile_1__or0000(player/sposXIn_missile_1__or00001:O)           | NONE(player/sposXIn_missile_1)                 | 1     |
+player/sposXIn_missile_2__and0000(player/sposXIn_missile_2__and00001:O)         | NONE(player/sposXIn_missile_2)                 | 1     |
+player/sposXIn_missile_2__or0000(player/sposXIn_missile_2__or00001:O)           | NONE(player/sposXIn_missile_2)                 | 1     |
+player/sposXIn_missile_3__and0000(player/sposXIn_missile_3__and00001:O)         | NONE(player/sposXIn_missile_3)                 | 1     |
+player/sposXIn_missile_3__or0000(player/sposXIn_missile_3__or00001:O)           | NONE(player/sposXIn_missile_3)                 | 1     |
+player/sposXIn_missile_4__and0000(player/sposXIn_missile_4__and00001:O)         | NONE(player/sposXIn_missile_4)                 | 1     |
+player/sposXIn_missile_4__or0000(player/sposXIn_missile_4__or00001:O)           | NONE(player/sposXIn_missile_4)                 | 1     |
+player/sposXIn_missile_5__and0000(player/sposXIn_missile_5__and00001:O)         | NONE(player/sposXIn_missile_5)                 | 1     |
+player/sposXIn_missile_5__or0000(player/sposXIn_missile_5__or00001:O)           | NONE(player/sposXIn_missile_5)                 | 1     |
+player/sposXIn_missile_6__and0000(player/sposXIn_missile_6__and00001:O)         | NONE(player/sposXIn_missile_6)                 | 1     |
+player/sposXIn_missile_6__or0000(player/sposXIn_missile_6__or00001:O)           | NONE(player/sposXIn_missile_6)                 | 1     |
+player/sposXIn_missile_7__and0000(player/sposXIn_missile_7__and00001:O)         | NONE(player/sposXIn_missile_7)                 | 1     |
+player/sposXIn_missile_7__or0000(player/sposXIn_missile_7__or00001:O)           | NONE(player/sposXIn_missile_7)                 | 1     |
+player/sposXIn_missile_8__and0000(player/sposXIn_missile_8__and00001:O)         | NONE(player/sposXIn_missile_8)                 | 1     |
+player/sposXIn_missile_8__or0000(player/sposXIn_missile_8__or00001:O)           | NONE(player/sposXIn_missile_8)                 | 1     |
+player/sposXIn_missile_9__and0000(player/sposXIn_missile_9__and00001:O)         | NONE(player/sposXIn_missile_9)                 | 1     |
+player/sposXIn_missile_9__or0000(player/sposXIn_missile_9__or00001:O)           | NONE(player/sposXIn_missile_9)                 | 1     |
+player/sposYIn_missile_0__and0000(player/sposYIn_missile_0__and00001:O)         | NONE(player/sposYIn_missile_0)                 | 1     |
+player/sposYIn_missile_0__or0000(player/sposYIn_missile_0__or00001:O)           | NONE(player/sposYIn_missile_0)                 | 1     |
+player/sposYIn_missile_1__and0000(player/sposYIn_missile_1__and00001:O)         | NONE(player/sposYIn_missile_1)                 | 1     |
+player/sposYIn_missile_1__or0000(player/sposYIn_missile_1__or00001:O)           | NONE(player/sposYIn_missile_1)                 | 1     |
+player/sposYIn_missile_2__and0000(player/sposYIn_missile_2__and00001:O)         | NONE(player/sposYIn_missile_2)                 | 1     |
+player/sposYIn_missile_2__or0000(player/sposYIn_missile_2__or00001:O)           | NONE(player/sposYIn_missile_2)                 | 1     |
+player/sposYIn_missile_3__and0000(player/sposYIn_missile_3__and00001:O)         | NONE(player/sposYIn_missile_3)                 | 1     |
+player/sposYIn_missile_3__or0000(player/sposYIn_missile_3__or00001:O)           | NONE(player/sposYIn_missile_3)                 | 1     |
+player/sposYIn_missile_4__and0000(player/sposYIn_missile_4__and00001:O)         | NONE(player/sposYIn_missile_4)                 | 1     |
+player/sposYIn_missile_4__or0000(player/sposYIn_missile_4__or00001:O)           | NONE(player/sposYIn_missile_4)                 | 1     |
+player/sposYIn_missile_5__and0000(player/sposYIn_missile_5__and00001:O)         | NONE(player/sposYIn_missile_5)                 | 1     |
+player/sposYIn_missile_5__or0000(player/sposYIn_missile_5__or00001:O)           | NONE(player/sposYIn_missile_5)                 | 1     |
+player/sposYIn_missile_6__and0000(player/sposYIn_missile_6__and00001:O)         | NONE(player/sposYIn_missile_6)                 | 1     |
+player/sposYIn_missile_6__or0000(player/sposYIn_missile_6__or00001:O)           | NONE(player/sposYIn_missile_6)                 | 1     |
+player/sposYIn_missile_7__and0000(player/sposYIn_missile_7__and00001:O)         | NONE(player/sposYIn_missile_7)                 | 1     |
+player/sposYIn_missile_7__or0000(player/sposYIn_missile_7__or00001:O)           | NONE(player/sposYIn_missile_7)                 | 1     |
+player/sposYIn_missile_8__and0000(player/sposYIn_missile_8__and00001:O)         | NONE(player/sposYIn_missile_8)                 | 1     |
+player/sposYIn_missile_8__or0000(player/sposYIn_missile_8__or00001:O)           | NONE(player/sposYIn_missile_8)                 | 1     |
+player/sposYIn_missile_9__and0000(player/sposYIn_missile_9__and00001:O)         | NONE(player/sposYIn_missile_9)                 | 1     |
+player/sposYIn_missile_9__or0000(player/sposYIn_missile_9__or00001:O)           | NONE(player/sposYIn_missile_9)                 | 1     |
+shoot                                                                           | IBUF                                           | 1     |
+--------------------------------------------------------------------------------+------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 20.289ns (Maximum Frequency: 49.287MHz)
+   Minimum input arrival time before clock: 21.695ns
+   Maximum output required time after clock: 7.718ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'display/ckdiv21'
+  Clock period: 8.403ns (frequency: 119.005MHz)
+  Total number of paths / destination ports: 940 / 30
+-------------------------------------------------------------------------
+Delay:               8.403ns (Levels of Logic = 14)
+  Source:            display/cptv_2 (FF)
+  Destination:       display/cptv_9 (FF)
+  Source Clock:      display/ckdiv21 rising
+  Destination Clock: display/ckdiv21 rising
+
+  Data Path: display/cptv_2 to display/cptv_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            10   0.591   1.057  display/cptv_2 (display/cptv_2)
+     LUT4:I0->O            1   0.704   0.424  display/cptvsup52528 (display/cptvsup52528)
+     LUT4:I3->O            3   0.704   0.535  display/cptvsup525224_SW0 (N995)
+     LUT4:I3->O            8   0.704   0.932  display/cptvsup525224 (display/cptvsup525)
+     LUT3:I0->O            1   0.704   0.000  display/Mcount_cptv_lut<0> (display/Mcount_cptv_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  display/Mcount_cptv_cy<0> (display/Mcount_cptv_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  display/Mcount_cptv_cy<1> (display/Mcount_cptv_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  display/Mcount_cptv_cy<2> (display/Mcount_cptv_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  display/Mcount_cptv_cy<3> (display/Mcount_cptv_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  display/Mcount_cptv_cy<4> (display/Mcount_cptv_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  display/Mcount_cptv_cy<5> (display/Mcount_cptv_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  display/Mcount_cptv_cy<6> (display/Mcount_cptv_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  display/Mcount_cptv_cy<7> (display/Mcount_cptv_cy<7>)
+     MUXCY:CI->O           0   0.059   0.000  display/Mcount_cptv_cy<8> (display/Mcount_cptv_cy<8>)
+     XORCY:CI->O           1   0.804   0.000  display/Mcount_cptv_xor<9> (display/Mcount_cptv9)
+     FDCE:D                    0.308          display/cptv_9
+    ----------------------------------------
+    Total                      8.403ns (5.455ns logic, 2.948ns route)
+                                       (64.9% logic, 35.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk50'
+  Clock period: 20.289ns (frequency: 49.287MHz)
+  Total number of paths / destination ports: 549373 / 347
+-------------------------------------------------------------------------
+Delay:               20.289ns (Levels of Logic = 20)
+  Source:            display/beamY_0 (FF)
+  Destination:       display/rOut (FF)
+  Source Clock:      clk50 rising
+  Destination Clock: clk50 rising
+
+  Data Path: display/beamY_0 to display/rOut
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.591   0.748  display/beamY_0 (display/beamY_0)
+     LUT2:I1->O            1   0.704   0.000  player/Msub_newPosY_turret_lut<0> (player/Msub_newPosY_turret_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  player/Msub_newPosY_turret_cy<0> (player/Msub_newPosY_turret_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  player/Msub_newPosY_turret_cy<1> (player/Msub_newPosY_turret_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  player/Msub_newPosY_turret_cy<2> (player/Msub_newPosY_turret_cy<2>)
+     XORCY:CI->O         899   0.804   1.414  player/Msub_newPosY_turret_xor<3> (player/Mrom_slice0000_rom00003001)
+     LUT4_D:I3->O         35   0.704   1.298  player/Mrom_slice0000_rom000056851 (player/Mrom_slice0000_rom00005685)
+     LUT4:I2->O           13   0.704   0.987  player/Mmux__mux0327_281 (player/Mmux__mux0327_257)
+     LUT4:I3->O            1   0.704   0.424  player/Mmux__mux0327_2838_SW0 (N887)
+     LUT4:I3->O            1   0.704   0.000  player/Mmux__mux0327_26_f5_11_F (N3261)
+     MUXF5:I0->O           1   0.321   0.424  player/Mmux__mux0327_26_f5_11 (player/Mmux__mux0327_26_f512)
+     LUT4:I3->O            1   0.704   0.455  player/newPosX_turret<4>10 (player/newPosX_turret<4>11)
+     LUT3:I2->O            1   0.704   0.000  player/Mmux__mux0327_1927 (player/Mmux__mux0327_1927)
+     MUXF5:I1->O           1   0.321   0.455  player/Mmux__mux0327_18_f5_14 (player/Mmux__mux0327_18_f515)
+     LUT3:I2->O            1   0.704   0.455  player/newPosX_turret<3>119_SW0 (N847)
+     LUT3_L:I2->LO         1   0.704   0.135  player/newPosX_turret<3>119 (player/newPosX_turret<3>119)
+     LUT3:I2->O            1   0.704   0.455  player/newPosX_turret<3>139 (player/newPosX_turret<3>2)
+     LUT3:I2->O            1   0.704   0.000  player/Mmux__mux0327_4 (player/Mmux__mux0327_4)
+     MUXF5:I0->O           3   0.321   0.535  player/Mmux__mux0327_2_f5 (player/_mux0327<0>1)
+     LUT4_L:I3->LO         1   0.704   0.104  sred2081_SW1 (N1846)
+     LUT4:I3->O            1   0.704   0.000  sred2081 (sred208)
+     FDRS:D                    0.308          display/rOut
+    ----------------------------------------
+    Total                     20.289ns (12.400ns logic, 7.889ns route)
+                                       (61.1% logic, 38.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk50'
+  Total number of paths / destination ports: 54972 / 83
+-------------------------------------------------------------------------
+Offset:              21.695ns (Levels of Logic = 21)
+  Source:            reset (PAD)
+  Destination:       display/rOut (FF)
+  Destination Clock: clk50 rising
+
+  Data Path: reset to display/rOut
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           316   1.218   1.527  reset_IBUF (reset_IBUF)
+     LUT2:I0->O            1   0.704   0.000  player/Msub_newPosY_turret_lut<0> (player/Msub_newPosY_turret_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  player/Msub_newPosY_turret_cy<0> (player/Msub_newPosY_turret_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  player/Msub_newPosY_turret_cy<1> (player/Msub_newPosY_turret_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  player/Msub_newPosY_turret_cy<2> (player/Msub_newPosY_turret_cy<2>)
+     XORCY:CI->O         899   0.804   1.414  player/Msub_newPosY_turret_xor<3> (player/Mrom_slice0000_rom00003001)
+     LUT4_D:I3->O         35   0.704   1.298  player/Mrom_slice0000_rom000056851 (player/Mrom_slice0000_rom00005685)
+     LUT4:I2->O           13   0.704   0.987  player/Mmux__mux0327_281 (player/Mmux__mux0327_257)
+     LUT4:I3->O            1   0.704   0.424  player/Mmux__mux0327_2838_SW0 (N887)
+     LUT4:I3->O            1   0.704   0.000  player/Mmux__mux0327_26_f5_11_F (N3261)
+     MUXF5:I0->O           1   0.321   0.424  player/Mmux__mux0327_26_f5_11 (player/Mmux__mux0327_26_f512)
+     LUT4:I3->O            1   0.704   0.455  player/newPosX_turret<4>10 (player/newPosX_turret<4>11)
+     LUT3:I2->O            1   0.704   0.000  player/Mmux__mux0327_1927 (player/Mmux__mux0327_1927)
+     MUXF5:I1->O           1   0.321   0.455  player/Mmux__mux0327_18_f5_14 (player/Mmux__mux0327_18_f515)
+     LUT3:I2->O            1   0.704   0.455  player/newPosX_turret<3>119_SW0 (N847)
+     LUT3_L:I2->LO         1   0.704   0.135  player/newPosX_turret<3>119 (player/newPosX_turret<3>119)
+     LUT3:I2->O            1   0.704   0.455  player/newPosX_turret<3>139 (player/newPosX_turret<3>2)
+     LUT3:I2->O            1   0.704   0.000  player/Mmux__mux0327_4 (player/Mmux__mux0327_4)
+     MUXF5:I0->O           3   0.321   0.535  player/Mmux__mux0327_2_f5 (player/_mux0327<0>1)
+     LUT4_L:I3->LO         1   0.704   0.104  sred2081_SW1 (N1846)
+     LUT4:I3->O            1   0.704   0.000  sred2081 (sred208)
+     FDRS:D                    0.308          display/rOut
+    ----------------------------------------
+    Total                     21.695ns (13.027ns logic, 8.668ns route)
+                                       (60.0% logic, 40.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk50'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            display/bOut (FF)
+  Destination:       blue (PAD)
+  Source Clock:      clk50 rising
+
+  Data Path: display/bOut to blue
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             1   0.591   0.420  display/bOut (display/bOut)
+     OBUF:I->O                 3.272          blue_OBUF (blue)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'display/ckdiv21'
+  Total number of paths / destination ports: 19 / 2
+-------------------------------------------------------------------------
+Offset:              7.718ns (Levels of Logic = 5)
+  Source:            display/cptv_4 (FF)
+  Destination:       vsync (PAD)
+  Source Clock:      display/ckdiv21 rising
+
+  Data Path: display/cptv_4 to vsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            10   0.591   0.961  display/cptv_4 (display/cptv_4)
+     LUT4:I1->O            1   0.704   0.000  display/cptvsup22111 (display/cptvsup22111)
+     MUXF5:I0->O           1   0.321   0.424  display/cptvsup2211_f5 (display/cptvsup2211)
+     LUT4:I3->O            1   0.704   0.000  display/cptvsup22131 (display/cptvsup2213)
+     MUXF5:I0->O           1   0.321   0.420  display/cptvsup2213_f5 (vsync_OBUF)
+     OBUF:I->O                 3.272          vsync_OBUF (vsync)
+    ----------------------------------------
+    Total                      7.718ns (5.913ns logic, 1.805ns route)
+                                       (76.6% logic, 23.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 246.00 secs
+Total CPU time to Xst completion: 246.60 secs
+ 
+--> 
+
+Total memory usage is 890284 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  126 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+
